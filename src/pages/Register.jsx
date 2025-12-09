@@ -101,7 +101,7 @@ const Register = () => {
                 error={errors.password ? errors.password?.message : ""}
               />
               <Textbox
-                placeholder="Job title (e.g. Product Manager)"
+                placeholder="Job title (e.g. Adminstrator , Product Manager)"
                 type="text"
                 name="title"
                 label="Title"
@@ -113,7 +113,7 @@ const Register = () => {
               />
 
               <Textbox
-                placeholder="Role (e.g. Designer, Developer)"
+                placeholder="Role (e.g. Admin ,Designer, Developer)"
                 type="text"
                 name="role"
                 label="Role"
